@@ -1,0 +1,87 @@
+{
+    "editor.fontSize": 14,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontWeight": "300",
+    "editor.tabSize": 2,
+    "workbench.colorCustomizations" : {
+        // 基本
+        // "contrastActiveBorder":"#ff0000",
+        // "contrastBorder":"#ff0000",
+        // "focusBorder":"#ff0000",
+        "foreground":"#838383",
+        "widget.shadow":"#00000031",
+        // "selection.background":"#ff0000",
+        // "descriptionForeground": "#ff0000",
+        // "errorForeground":"#ff0000",
+        // 文字
+        // "textBlockQuote.background":"#ff0000",
+        // "textBlockQuote.border": "#ff0000",
+        // "textCodeBlock.background": "#ff0000",
+        // "textLink.activeForeground": "#ff0000",
+        // "textLink.foreground": "#ff0000",
+        // "textPreformat.foreground": "#ff0000",
+        // "textSeparator.foreground": "#ff0000",
+        // 终端
+        "terminal.foreground" : "#5b8748",
+        // 匹配括号
+        "editorBracketMatch.border": "#2A2A2A",
+        "editorBracketMatch.background": "#2A2A2A",
+        // 行号
+        "editorLineNumber.foreground": "#3f3f3f",
+        // 代码行高亮
+        "editor.lineHighlightBackground":"#2A2A2A",
+        // 光标
+        "editorCursor.foreground": "#528BFF",
+        // 行标
+        "editorIndentGuide.background": "#2A2A2A",
+        "editorIndentGuide.activeBackground": "#3B3B3B",
+        // 活动栏
+        "activityBar.foreground":"#9b9b9b",
+        // 标签栏
+        "tab.inactiveBackground": "#252525",
+        // 标题栏
+        "titleBar.inactiveBackground":"#2c2c2c",
+        "titleBar.activeBackground":"#252525",
+        // 文本框
+        "input.background":"#181818",
+        // 滚动栏
+        "scrollbar.shadow": "#1e1e1e",
+        "scrollbarSlider.background": "#0000002a",
+        // 徽标
+        "badge.foreground":"#a1a1a1",
+        "badge.background": "#222222",
+        // 状态栏
+        "statusBar.background": "#0f0f0f",
+        "statusBar.foreground":"#575757",
+        // 编辑器群组
+        "editorGroup.border": "#000000",
+        // Widget
+        "editorHoverWidget.background":"#101010",
+        "editorHoverWidget.border":"#101010",
+        // Panel
+        "panel.background":"#1a1a1a",
+        "panel.border":"#181818",
+        "panelTitle.activeForeground":"#a0a0a0",
+        "panelTitle.inactiveForeground":"#555555",
+        "panelTitle.activeBorder":"#383838",
+    },
+    "editor.tokenColorCustomizations":{
+        "[Default Dark+]": {
+            "comments": "#555555",
+        }
+    },
+    "editor.overviewRulerBorder": false,
+    "workbench.tips.enabled": false,
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+}
