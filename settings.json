@@ -37,6 +37,7 @@
             "editorBracketMatch.background": "#2a2a2a",
             // Line Number
             "editorLineNumber.foreground": "#3f3f3f",
+            "editorLineNumber.activeForeground": "#7e7e7e",
             // Line
             "editor.lineHighlightBackground": "#2a2a2a82",
             // Cursor
@@ -158,5 +159,4 @@
     "explorer.confirmDelete": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
-    "workbench.colorTheme": "Default Light+",
 }
