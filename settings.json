@@ -138,7 +138,7 @@
             "editorSuggestWidget.border": "#ededed",
             "editorSuggestWidget.foreground": "#8c8c8c",
             // Panel
-            "panel.background": "#f4f4f4",
+            "panel.background": "#eeeeee",
             "panel.border": "#dddddd6d",
             "panelTitle.activeForeground": "#555555",
             "panelTitle.inactiveForeground": "#bbbbbb",
@@ -159,4 +159,6 @@
     "explorer.confirmDelete": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Default Light+",
+    "editor.lineNumbers": "off",
 }
