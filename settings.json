@@ -39,7 +39,7 @@
             "editorLineNumber.foreground": "#3f3f3f",
             "editorLineNumber.activeForeground": "#7e7e7e",
             // Line
-            "editor.lineHighlightBackground": "#2a2a2a82",
+            "editor.lineHighlightBackground": "#2a2a2a3e",
             // Cursor
             "editorCursor.foreground": "#528Bff",
             // Indent Guide
