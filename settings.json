@@ -33,17 +33,17 @@
             // Terminal
             "terminal.foreground": "#5b8748",
             // Bracket
-            "editorBracketMatch.border": "#2A2A2A",
-            "editorBracketMatch.background": "#2A2A2A",
+            "editorBracketMatch.border": "#2a2a2a",
+            "editorBracketMatch.background": "#2a2a2a",
             // Line Number
             "editorLineNumber.foreground": "#3f3f3f",
             // Line
-            "editor.lineHighlightBackground": "#2A2A2A",
+            "editor.lineHighlightBackground": "#2a2a2a82",
             // Cursor
-            "editorCursor.foreground": "#528BFF",
+            "editorCursor.foreground": "#528Bff",
             // Indent Guide
-            "editorIndentGuide.background": "#2A2A2A",
-            "editorIndentGuide.activeBackground": "#3B3B3B",
+            "editorIndentGuide.background": "#2a2a2a",
+            "editorIndentGuide.activeBackground": "#3b3b3b",
             // Activitybar
             "activityBar.foreground": "#9b9b9b",
             // Tab
@@ -72,15 +72,84 @@
             "editorSuggestWidget.foreground": "#8c8c8c",
             // Panel
             "panel.background": "#1a1a1a",
-            "panel.border": "#181818",
+            "panel.border": "#1313134b",
             "panelTitle.activeForeground": "#a0a0a0",
             "panelTitle.inactiveForeground": "#555555",
+            "panelTitle.activeBorder": "#383838",
+        },
+        "[Default Light+]": {
+            // Base Colors
+            // "contrastActiveBorder":"#ff0000",
+            // "contrastBorder":"#ff0000",
+            // "focusBorder":"#ff0000",
+            "foreground": "#838383",
+            "widget.shadow": "#00000031",
+            // "selection.background":"#ff0000",
+            // "descriptionForeground": "#ff0000",
+            // "errorForeground":"#ff0000",
+            // Text Colors
+            // "textBlockQuote.background":"#ff0000",
+            // "textBlockQuote.border": "#ff0000",
+            // "textCodeBlock.background": "#ff0000",
+            // "textLink.activeForeground": "#ff0000",
+            // "textLink.foreground": "#ff0000",
+            // "textPreformat.foreground": "#ff0000",
+            // "textSeparator.foreground": "#ff0000",
+            // Terminal
+            // "terminal.foreground": "#5b8748",
+            // Bracket
+            "editorBracketMatch.border": "#eeeeee",
+            "editorBracketMatch.background": "#eeeeee",
+            // Line Number
+            "editorLineNumber.foreground": "#d8d8d8",
+            "editorLineNumber.activeForeground": "#939393",
+            // Line
+            "editor.lineHighlightBackground": "#f8f8f8",
+            // Cursor
+            // "editorCursor.foreground": "#b6b6b6",
+            // Indent Guide
+            "editorIndentGuide.background": "#f0f0f0",
+            "editorIndentGuide.activeBackground": "#e1e1e1",
+            // Activitybar
+            "activityBar.foreground": "#9b9b9b",
+            // Tab
+            "tab.inactiveBackground": "#f3f3f3",
+            // Titlebar
+            "titleBar.inactiveBackground": "#f3f3f3",
+            "titleBar.activeBackground": "#f3f3f3",
+            // Input
+            "input.background": "#ffffff",
+            // Scrollbar
+            "scrollbar.shadow": "#ffffff",
+            "scrollbarSlider.background": "#00000012",
+            // Badge
+            "badge.foreground": "#a1a1a1",
+            "badge.background": "#f2f2f2",
+            // Statusbar
+            "statusBar.background": "#1c1c1c",
+            "statusBar.foreground": "#9a9a9a",
+            // Editor Group
+            "editorGroup.border": "#d3d3d3",
+            // Widget
+            "editorHoverWidget.background": "#f9f9f9",
+            "editorHoverWidget.border": "#ededed",
+            "editorSuggestWidget.background": "#f9f9f9",
+            "editorSuggestWidget.border": "#ededed",
+            "editorSuggestWidget.foreground": "#8c8c8c",
+            // Panel
+            "panel.background": "#f4f4f4",
+            "panel.border": "#dddddd6d",
+            "panelTitle.activeForeground": "#555555",
+            "panelTitle.inactiveForeground": "#bbbbbb",
             "panelTitle.activeBorder": "#383838",
         }
     },
     "editor.tokenColorCustomizations":{
         "[Default Dark+]": {
             "comments": "#555555",
+        },
+        "[Default Light+]": {
+            "comments": "#a2a2a2",
         }
     },
     "editor.overviewRulerBorder": false,
@@ -89,4 +158,5 @@
     "explorer.confirmDelete": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Default Light+",
 }
