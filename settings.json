@@ -65,6 +65,9 @@
             // Statusbar
             "statusBar.background": "#0f0f0f",
             "statusBar.foreground": "#575757",
+            "statusBar.debuggingBackground": "#0f0f0f",
+            "statusBar.noFolderBackground":"#0f0f0f",
+            "statusBarItem.hoverBackground":"#161616",
             // Editor Group
             "editorGroup.border": "#000000",
             // Widget
