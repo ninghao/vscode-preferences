@@ -1260,7 +1260,7 @@
     "explorer.confirmDelete": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.cursorBlinking": "solid",
     "editor.quickSuggestions": {
         "other": true,
@@ -1271,7 +1271,9 @@
     "workbench.activityBar.visible": false,
     "materialTheme.fixIconsRunning": false,
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": false,
     "material-icon-theme.opacity": 0.85,
+    "explorer.confirmDragAndDrop": false,
+    "debug.toolBarLocation": "docked",
 }
