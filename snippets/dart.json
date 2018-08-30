@@ -1,0 +1,29 @@
+{
+	"StatelessWidget Class": {
+		"prefix": "sl",
+		"body": [
+			"class ${1:WidgetName} extends StatelessWidget {",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn ${2:Container}();",
+			"\t}",
+			"}"
+		],
+		"description": "Flutter StatelessWidget Class"
+	},
+	"StatefulWidget Class": {
+		"prefix": "sf",
+		"body": [
+			"class ${1:WidgetName} extends StatefulWidget{",
+			"\t${1:WidgetName}State createState() => ${1:WidgetName}State();",
+			"}\n",
+			"class ${1:index}State extends State<${1:index}> {",
+			"\t@override",
+			"\tWidget build(BuildContext context){",
+			"\t\treturn Container();",
+			"\t}",
+			"}"
+		],
+		"description": "Flutter StatefulWidget Class"
+	},
+}
