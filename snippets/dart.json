@@ -15,12 +15,13 @@
 		"prefix": "sf",
 		"body": [
 			"class ${1:WidgetName} extends StatefulWidget{",
-			"\t${1:WidgetName}State createState() => ${1:WidgetName}State();",
+			"\t@override",
+			"\t_${1:WidgetName}State createState() => _${1:WidgetName}State();",
 			"}\n",
-			"class ${1:index}State extends State<${1:index}> {",
+			"class _${1:index}State extends State<${1:index}> {",
 			"\t@override",
 			"\tWidget build(BuildContext context){",
-			"\t\treturn Container();",
+			"\t\treturn ${2:Container}();",
 			"\t}",
 			"}"
 		],
