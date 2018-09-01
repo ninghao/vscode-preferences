@@ -20,7 +20,7 @@
 			"}\n",
 			"class _${1:index}State extends State<${1:index}> {",
 			"\t@override",
-			"\tWidget build(BuildContext context){",
+			"\tWidget build(BuildContext context) {",
 			"\t\treturn ${2:Container}();",
 			"\t}",
 			"}"
