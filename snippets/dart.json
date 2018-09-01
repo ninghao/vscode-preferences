@@ -14,9 +14,9 @@
 	"StatefulWidget Class": {
 		"prefix": "sf",
 		"body": [
-			"class ${1:WidgetName} extends StatefulWidget{",
+			"class ${1:WidgetName} extends StatefulWidget {",
 			"\t@override",
-			"\t_${1:WidgetName}State createState() => _${1:WidgetName}State();",
+			"\t_${1:index}State createState() => _${1:index}State();",
 			"}\n",
 			"class _${1:index}State extends State<${1:index}> {",
 			"\t@override",
@@ -27,4 +27,3 @@
 		],
 		"description": "Flutter StatefulWidget Class"
 	},
-}
