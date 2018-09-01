@@ -27,3 +27,21 @@
 		],
 		"description": "Flutter StatefulWidget Class"
 	},
+	"setState": {
+		"prefix": "ss",
+		"body": [
+			"setState(() {${1}});",
+		],
+		"description": "setState"
+	},
+	"build": {
+		"prefix": "build",
+		"body": [
+			"@override",
+			"Widget build(BuildContext context) {",
+			"\treturn ${1:Container}(${2});",
+			"}",
+		],
+		"description": "Build Method"
+	},
+}
