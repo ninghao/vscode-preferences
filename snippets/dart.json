@@ -64,7 +64,27 @@
       "}"
     ],
     "description": "StatefulWidget with Scaffold"
-  },  
+  },
+  "InheritedWidget": {
+    "prefix": "ih",
+    "body": [
+      "class ${1:WidgetName} extends InheritedWidget {",
+      "\tfinal Widget child;",
+      "\t${2}",
+      "\t${1:WidgetName}({",
+      "\t\tthis.child,",
+      "\t\t${2}",
+      "\t}) : super(child: child);\n",
+      "\tstatic ${1:WidgetName} of(BuildContext context) =>",
+      "\t\t\tcontext.inheritFromWidgetOfExactType(${1:WidgetName});\n",
+      "\t@override",
+      "\tbool updateShouldNotify(${1:WidgetName} oldWidget) {",
+      "\t\treturn true;",
+      "\t}",
+      "}"
+    ],
+    "description": "InheritedWidget"
+  },
   "setState": {
     "prefix": "ss",
     "body": [
