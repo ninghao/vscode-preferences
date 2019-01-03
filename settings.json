@@ -1276,4 +1276,8 @@
     "material-icon-theme.opacity": 0.85,
     "explorer.confirmDragAndDrop": false,
     "debug.toolBarLocation": "docked",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
+    "emmet.triggerExpansionOnTab": true,
 }
