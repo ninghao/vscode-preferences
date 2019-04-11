@@ -1280,4 +1280,16 @@
         "javascript": "javascriptreact",
     },
     "emmet.triggerExpansionOnTab": true,
+      "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywordsPattern": "@[\\w]*\\(.*?\\)",
+    "todohighlight.defaultStyle": {
+        "color": "#666",
+        "backgroundColor": "0",
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.ts",
+        "**/*.vue",
+    ]
 }
