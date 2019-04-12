@@ -1280,7 +1280,7 @@
         "javascript": "javascriptreact",
     },
     "emmet.triggerExpansionOnTab": true,
-    "todohighlight.keywordsPattern": "@[\\w]*\\(.*?\\)",
+    "todohighlight.keywordsPattern": "@\\w+\\(.*?\\)+",
     "todohighlight.defaultStyle": {
         "color": "#666",
         "backgroundColor": "0",
