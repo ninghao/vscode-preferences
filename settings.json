@@ -1463,7 +1463,6 @@
     "editor.roundedSelection": false,
     "workbench.activityBar.visible": false,
     "materialTheme.fixIconsRunning": false,
-    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": false,
     "material-icon-theme.opacity": 0.85,
